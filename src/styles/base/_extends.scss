@@ -1,0 +1,24 @@
+// Extend for background image
+%backgroundImage {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// Position absolute
+%posAbs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+// Flex Column Center
+%flexColCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
