@@ -20,19 +20,6 @@
             margin: 5px 0;
             text-transform: uppercase;
         }
-        &__button {
-            background-color: $color-white;
-            border-radius: 20px;
-            color: $color-black;
-            padding: 10px;
-            text-align: center;
-            transition: all .2s ease-in-out;
-            margin-top: 20px;
-            width: 100px;
-            &:hover {
-                width: 105px;
-            }
-        }
     }
 }
 
@@ -90,5 +77,14 @@
         background-position: center;
         background-size: cover;
         height: 500px;
+    }
+    &__button{
+        background-color: transparent;
+        border: 1px solid $color-black;
+        color: $color-black;
+    }
+    &__button:hover{
+        background-color: $color-black;
+        color: $color-white;
     }
 }
