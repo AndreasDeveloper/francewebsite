@@ -59,23 +59,27 @@
         padding: 20px;
     }
     .box-1 { 
-        background-color: red; 
+        background-color: #046392; 
         width: 250px;
         height: 180px;
+       // background-image: url(/src/assets/box-1.jpg);
     }
     .box-2 { 
-        background-color: blue; 
+        background-color:#623465; 
         width: 250px;
         height: 180px;
+       // background-image: url(/src/assets/box-2.jpg);
     }
     .box-3 { 
-        background-color: green; 
+        background-color: #740923; 
         width: 250px;
         height: 180px;
+        //background-image: url(/src/assets/box-3.jpg);
     }
     .box-4 { 
-        background-color: orangered; 
+        background-color: #047365; 
         width: 830px;
         height: 300px;
+       // background-image: url(/src/assets/box-4.jpg);
     }
 }
