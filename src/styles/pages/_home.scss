@@ -83,5 +83,14 @@
         height: 500px;
         background-image: linear-gradient(to bottom, rgba($color-black, 0.4), rgba($color-black, 0.4)), url(../assets/box-4.jpg);
     }
-    
+    .text {
+        font-size: large;
+        margin-top: 250px;
+        margin-left: 25px;
+    }
+    .text-box {
+        font-size: large;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
 }
