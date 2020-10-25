@@ -38,7 +38,7 @@
 
 // Section Info
 .section-info {
-    height: 100vh;
+    min-height: 100vh;
     margin: 50px 150px;
     &__container {
         @extend %flexColCenter;
@@ -89,8 +89,34 @@
         margin-left: 25px;
     }
     .text-box {
-        font-size: large;
+        font-size: 30px;
         margin-left: 100px;
-        margin-top: 100px;
+        padding-top: 200px;
+    }
+    .button-box {
+        background-color:#E0E0E0;
+        border-radius: 10px;
+        border: none;
+        color: $color-black;
+        padding: 15px 70px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: 100px;
+        margin-top: 25px;
+    }    
+    .button-box:hover {background-color: #E0E0E0;}
+    .button-box:active {
+        background-color: #E0E0E0;
+        box-shadow: 0 5px #666;
+        transform: translate(4px);
+    }
+    .text-box-2 {
+        font-size: 15px;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-left: 100px;
     }
 }
